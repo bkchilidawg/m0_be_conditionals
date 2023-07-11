@@ -61,21 +61,27 @@ puts "Is number_students greater than or equal to 21", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+# This asks if the integer 4 is less that 9. Since it is less, it will print "true"
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This designates that books equals 3. It then asks if 4 is less than books. Since 4 is more
+# than 3, it will print "false" 
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This designates that friends equals 6 and that siblings equals 2. It then asks if friends
+# is greater than siblings. Since 6 is greater than 2, it will print "true"
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# This designates that attendees equals 9 and that meals equals 8. It thean asks if attendees 
+# is not equal to meals. Sine 9 does not equal 8, it will print "true"
 
 #-------------------
 # PART 3: Logical Operators
